@@ -1,1 +1,80 @@
-/* Write your CSS here! */
+body {
+    font-family: 'Open Sans'; margin: 8px; display: block;
+}
+
+h1, h2 {
+    font-family: 'Open Sans'; font-weight: 400;
+}
+
+.centerBox {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+  }
+
+#back-to-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 65px;
+  /* height: 48px; */
+  /* background-image: url(path/to/your/image.png); */
+  background-size: cover;
+  cursor: pointer;
+}
+
+footer { padding: 20px;
+  background-color: rgb(226, 206, 255);
+}
+
+.full-img {
+    max-width: 100%; /* Ensures the image does not exceed the width of the centerBox */
+    max-height: 100%; /* Ensures the image does not exceed the height of the centerBox */
+    display: block; /* Removes any extra space below the image */
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 20px;
+    /* sticky and top: 0 keep it at the top of the page */
+    margin-top: 0;
+    background-color: #f9f9f9;
+    padding: 10px; padding-top: 0px;
+  }
+
+.twitter-tweet {
+  margin: 10px;
+}
+
+/* this sets the header's nav's unordered list to remove the bullet points and add nessessary changes for styling */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: center;
+  }
+
+/* controls the headers's nav's ordered list's indivual list entries, so if it was a file path it would be:
+header/nav/ul/li */
+  header nav ul li {
+    margin-left: 10px;
+  }
+
+#funParagraph {
+    color: green;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#header-top {
+  background-color: rgb(207, 215, 250);
+}
+
+#twitter-posts-div {
+  display: flex; padding: auto; justify-items: auto; 
+}
