@@ -23,6 +23,10 @@ h1, h2 {
   cursor: pointer;
 }
 
+footer { padding: 20px;
+  background-color: rgb(226, 206, 255);
+}
+
 .full-img {
     max-width: 100%; /* Ensures the image does not exceed the width of the centerBox */
     max-height: 100%; /* Ensures the image does not exceed the height of the centerBox */
@@ -65,4 +69,12 @@ header/nav/ul/li */
 
 #mainHeading {
     color: red;
+}
+
+#header-top {
+  background-color: rgb(207, 215, 250);
+}
+
+#twitter-posts-div {
+  display: flex; padding: auto; justify-items: auto; 
 }
